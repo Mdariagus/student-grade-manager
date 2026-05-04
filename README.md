@@ -1,70 +1,49 @@
-📘 Manajemen Data Mahasiswa
+Student Grade Manager (Java Console App)
 
-Program Java berbasis console untuk mengelola nilai mahasiswa.
-Program ini menyediakan fitur input nilai, menampilkan daftar nilai, serta mengurutkan nilai menggunakan algoritma Bubble Sort.
-Data disimpan menggunakan array, dan menu program berjalan menggunakan perulangan do-while.
+A simple Java console application to manage student grades.
+This project demonstrates basic data handling, sorting algorithms, and interactive menu systems.
 
-🚀 Fitur Program
-
-Input Nilai Mahasiswa
-Pengguna dapat memasukkan nilai mahasiswa dengan validasi (0–100).
-
-Tampilkan Nilai Mahasiswa
-Menampilkan seluruh nilai yang telah diinput beserta jumlah datanya.
-
-Urutkan Nilai (Bubble Sort)
-Mengurutkan nilai dari kecil ke besar (ascending) dan menampilkan proses pengurutan setiap langkah.
-
-Exit Program
-Keluar dari aplikasi.
-
-🛠 Teknologi yang Digunakan
-
+✨ Features
+Input student grades with validation (0–100)
+Display all stored grades
+Sort grades using Bubble Sort (ascending)
+Interactive menu using loop
+🛠️ Tech Stack
 Java
+Array (data storage)
+Bubble Sort algorithm
+Scanner (user input)
+▶️ How to Run
 
-Array
-
-Bubble Sort
-
-Scanner (untuk input data)
-
-📂 Struktur File
-ManajemenDataMahasiswa1.java
-
-▶️ Cara Menjalankan Program
-
-Pastikan Java sudah terinstall:
+Make sure Java is installed:
 
 java -version
 
-
-Compile program:
+Compile the program:
 
 javac ManajemenDataMahasiswa1.java
 
-
-Jalankan program:
+Run the program:
 
 java ManajemenDataMahasiswa1
 
-🧠 Tujuan Program
+📌 Project Purpose
 
-Program ini dibuat untuk latihan logika pemrograman Java, meliputi:
+This project was built to practice:
 
-Penggunaan array untuk menyimpan data
+Basic programming logic
+Array data management
+Looping and conditional statements
+Implementation of sorting algorithms
+📷 Sample Output
 
-Perulangan & percabangan
-
-Pengelolaan data sederhana
-
-Implementasi algoritma Bubble Sort
-
-Pembuatan menu interaktif berbasis console
-
-📌 Contoh Menu Program
-===============MENU=============
-1. MASUKKAN NILAI MAHASISWA
-2. TAMPILKAN NILAI MAHASISWA
-3. URUTAN NILAI MAHASISWA
-4. EXIT
+===============MENU============= 
+MASUKKAN NILAI MAHASISWA 
+TAMPILKAN NILAI MAHASISWA 
+URUTAN NILAI MAHASISWA 
+EXIT 
 ================================
+
+⚠️ Note
+
+This is a basic console-based application created for learning purposes
